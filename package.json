@@ -1,0 +1,14 @@
+{
+  "name": "hanoi-issue",
+  "version": "1.0.0",
+  "description": "Hanoi loader on web by logging (home work uni)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}

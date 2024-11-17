@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanoi Issue - Abolfazl Rahmati</title>
+    <link rel="stylesheet" href="/public/build/output.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://tailwindcss.com//favicons/apple-touch-icon.png?v=3" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://tailwindcss.com//favicons/favicon-32x32.png?v=3" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://tailwindcss.com//favicons/favicon-16x16.png?v=3" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="  font-lexend flex items-center justify-center w-full h-screen   ">
+    <main id="mainSection" class=" lg:scale-100 max-w-[800px] h-full w-full flex items-center justify-start flex-col  ">
+        <h1 class=" xl:text-5xl md:text-5xl sm:text-[40px] ss:text-4xl sx:text-[34px] font-black text-stone-900 sm:mt-20 sm:mb-14 sx:mt-16 sx:mb-11 ">Hanoi Issue</h1>
+        <div class=" flex items-center justify-between sx:gap-x-2 ss:gap-x-3 md:gap-x-5 " >
+            <h3 class=" font-medium xl:text-lg sm:text-base ss:text-base sx:text-[15px] " >Enter Number Of Disks :</h3>
+            <input placeholder="6" class="  border-none outline-none focus:border-none bg-stone-200 xl:w-14 xl:h-10 xl:px-4 md:w-12 md:h-8 md:px-3 sm:w-10 sm:h-7 sm:px-2 ss:px-2 ss:w-8 ss:h-8 sx:px-1.5 sx:w-7 sx:h-7 rounded-md " type="text"  id="numberInput">
+            <button class="runIssue hidden sm:block xl:px-4 xl:py-2 md:px-3 md:py-1.5 sm:px-2.5 sm:py-1.5 sm:text-[14px] bg-stone-800 hover:bg-stone-900 rounded-xl text-white hover:shadow-md hover:shadow-stone-400 " >GENERATE MOVES !</button>
+        </div>
+        <button class="runIssue sx:text-sm ss:text-[16px] block sm:hidden mt-4 px-20 py-2 bg-stone-800 hover:bg-stone-900 rounded-xl text-white hover:shadow-md hover:shadow-stone-400 " >GENERATE MOVES !</button>
+        <div id="outputDiv" class=" sx:mt-5  md:mt-14 xl:mt-16 pb-24   " >
+            <!-- <h4 class=" sx:text-base ss:text-[18px] md:text-xl text-stone-800 font-bold mt-7 text-center " >Output :</h4>
+            <h3 class=" sx:text-[15px] ss:text-[17px] md:text-lg font-semibold mt-10 " >Starting Tower Of Hanoi For <span class=" px-1.5 py-1 bg-stone-800 text-white rounded-md " >3</span> Disk</h3>
+            <hr class=" mt-6 " >
+            <hr class=" mb-6 " >
+            <div id="movesHtml"  >
+                <p class=" sx:text-[15px] ss:text-[16px] md:text-[17.5px] font-light text-center mt-4 " >Move disk 1 from A to C</p>
+                <p class=" sx:text-[15px] ss:text-[16px] md:text-[17.5px] font-light text-center mt-4 " >Move disk 1 from A to C</p>
+                <p class=" sx:text-[15px] ss:text-[16px] md:text-[17.5px] font-light text-center mt-4 " >Move disk 1 from A to C</p>
+                <p class=" sx:text-[15px] ss:text-[16px] md:text-[17.5px] font-light text-center mt-4 " >Move disk 1 from A to C</p>
+            </div>
+            <hr class=" mt-6 " >
+            <hr class=" mb-6 " >
+            <h4 class=" text-center font-semibold mt-4 sx:text-base ss:text-[17px] md:text-[18px] " >All moves completed !</h4> -->
+    </div>
+    </main>
+
+    <script type="module" src="/src/js/app.js"></script>
+</body>
+
+</html>
