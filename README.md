@@ -10,12 +10,6 @@ This repository contains a **Tower of Hanoi** problem solver, implemented in **J
 
 ## 📂 Structure
 - `hanoi.js` - Core logic of the solver.
-- Example and usage instructions in the code comments.
 
 ## 🤝 Contributions
 Feel free to fork and enhance the project by adding visualizations, optimizing the algorithm, or exploring iterative solutions!
-
----
-
-⭐ **Star the repo if you find it useful!**
-
